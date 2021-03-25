@@ -1,0 +1,28 @@
+{
+    "hotels": [
+      { 
+       "name": "merriott",
+       "rooms": 50,
+       "gym": "yes",
+       "roomType": ["single", "double"],
+       "address": "san degio",
+       "image": "img/img3.jpg"
+    },
+    { 
+        "name": "sheretton",
+        "rooms": 20,
+        "gym": "yes",
+        "roomType": ["single", "double"],
+        "address": "san degio",
+        "image": "img/img3.jpg"
+     },
+     { 
+        "name": "hilton",
+        "rooms": 100,
+        "gym": "yes",
+        "roomType": ["single", "double", "master"],
+        "address": "san degio",
+        "image": "img/img3.jpg"
+     }
+    ]
+}
