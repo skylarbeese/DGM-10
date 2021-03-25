@@ -8,3 +8,7 @@ async function getData() {
     }
 }
 console.log(getData())
+let GetHotelData = {}
+getData().then(data => {
+  return GetHotelData = data
+})
