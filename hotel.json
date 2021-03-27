@@ -6,7 +6,7 @@
        "gym": "no",
        "roomType": ["single", "double"],
        "address": "san degio",
-       "image": "img/img3.jpg"
+       "image": "img/img2.jpg"
     },
     { 
         "name": "sher",
