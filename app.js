@@ -10,8 +10,8 @@ async function getData() {
 
 let GetHotelData = {}
 getData().then(data => GetHotelData = data)
-
 document.querySelectorAll('.hName').addEventListener('click', info)
+
 
 function info(e) {
  e.preventDefault()
