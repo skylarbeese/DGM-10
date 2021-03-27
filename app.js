@@ -7,18 +7,17 @@ async function getData() {
       console.log(err)
     }
 }
-console.log(getData())
+
 let GetHotelData = {}
-getData().then(data => {
-  return GetHotelData = data
-})
+getData().then(data => GetHotelData = data)
 
 document.querySelector("#mer").addEventListener('click', info)
 
 function info(e) {
-//  console.log(e)
+
   let Ch = GetHotelData.hotels.find(hotel => {
     return e.target.id === hotel.name
   })
+  console.log(Ch)
   document.querySelector('#Mname').innerText = Ch.name
 }
