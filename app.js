@@ -20,4 +20,6 @@ function info(e) {
   })
   console.log(Ch)
   document.querySelector('#Mname').innerText = Ch.name
+  document.querySelector('#rooms').innerText = Ch.gym
+  document.querySelector('#gym').innerText = Ch.rooms
 }
