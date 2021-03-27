@@ -19,7 +19,10 @@ function info(e) {
     return e.target.id === hotel.name
   })
   console.log(Ch)
-  document.querySelector('#Mname').innerText = Ch.name
-  document.querySelector('#rooms').innerText = Ch.gym
-  document.querySelector('#gym').innerText = Ch.rooms
+  document.querySelector('#address').innerText = Ch.address
+  document.querySelector('#rooms').innerText = Ch.rooms
+  document.querySelector('#rooms').innerText = Ch.rooms
+  document.querySelector('#gym').innerText = Ch.gym
+  document.querySelector('#room-type').innerText = Ch.roomType
+  
 }
