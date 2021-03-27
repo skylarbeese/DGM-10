@@ -3,7 +3,7 @@
       { 
        "name": "mer",
        "rooms": 50,
-       "gym": "yes",
+       "gym": "no",
        "roomType": ["single", "double"],
        "address": "san degio",
        "image": "img/img3.jpg"
@@ -13,15 +13,15 @@
         "rooms": 20,
         "gym": "yes",
         "roomType": ["single", "double"],
-        "address": "san degio",
+        "address": "new york",
         "image": "img/img3.jpg"
      },
      { 
         "name": "hil",
         "rooms": 100,
         "gym": "yes",
-        "roomType": ["single", "double", "master"],
-        "address": "san degio",
+        "roomType": ["single", "double", "master", "double-master"],
+        "address": "LA",
         "image": "img/img3.jpg"
      }
     ]

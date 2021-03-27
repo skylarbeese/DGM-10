@@ -26,5 +26,6 @@ function info(e) {
   document.querySelector('#rooms').innerText = Ch.rooms
   document.querySelector('#gym').innerText = Ch.gym
   document.querySelector('#room-type').innerText = Ch.roomType
-  
+ // document.querySelector('#img').setAttribute("src", `${Ch.image}`)
+  document.querySelector('#img').src = `${Ch.image}`
 }
