@@ -1,7 +1,7 @@
 
 async function getData() {
     try{
-    const response = await fetch('hotel.json')
+    const response = await fetch('./hotel.json')
     return await response.json()
     } catch (err){
       console.log(err)
