@@ -22,7 +22,7 @@
         "gym": "yes",
         "roomType": ["single", "double", "master", "double-master"],
         "address": "LA",
-        "image": "img/img3.jpg"
+        "image": "img/img1.jpg"
      }
     ]
 }
