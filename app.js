@@ -12,3 +12,13 @@ let GetHotelData = {}
 getData().then(data => {
   return GetHotelData = data
 })
+
+document.querySelector("#mer").addEventListener('click', info)
+
+function info(e) {
+  console.log(e)
+  let Choise = GetHotelData.hotel.find(hotel => {
+    return e.target.id === hotel.name
+  })
+  document.querySelector('#Mname').innerText = Choise.name
+}
