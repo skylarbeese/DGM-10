@@ -18,7 +18,7 @@ document.querySelector("#mer").addEventListener('click', info)
 function info(e) {
   console.log(e)
   let Choise = GetHotelData.hotels.find(hotel => {
-    return e.target.id === hotels.name
+    return e.target.id === hotel.name
   })
   document.querySelector('#Mname').innerText = Choise.name
 }
