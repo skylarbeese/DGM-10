@@ -11,7 +11,7 @@ async function getData() {
 let GetHotelData = {}
 getData().then(data => GetHotelData = data)
 
-document.querySelectorAll("a").addEventListener('click', info)
+document.querySelectorAll(a).addEventListener('click', info)
 
 function info(e) {
 
