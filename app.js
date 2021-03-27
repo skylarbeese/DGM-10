@@ -14,7 +14,7 @@ getData().then(data => GetHotelData = data)
 document.querySelector('#mer').addEventListener('click', info)
 
 function info(e) {
-
+ e.preventDefault()
   let Ch = GetHotelData.hotels.find(hotel => {
     return e.target.id === hotel.name
   })
