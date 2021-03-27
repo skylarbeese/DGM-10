@@ -1,7 +1,7 @@
 {
     "hotels": [
       { 
-       "name": "merriott",
+       "name": "mer",
        "rooms": 50,
        "gym": "yes",
        "roomType": ["single", "double"],
@@ -9,7 +9,7 @@
        "image": "img/img3.jpg"
     },
     { 
-        "name": "sheretton",
+        "name": "sher",
         "rooms": 20,
         "gym": "yes",
         "roomType": ["single", "double"],
@@ -17,7 +17,7 @@
         "image": "img/img3.jpg"
      },
      { 
-        "name": "hilton",
+        "name": "hil",
         "rooms": 100,
         "gym": "yes",
         "roomType": ["single", "double", "master"],
